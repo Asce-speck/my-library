@@ -1,0 +1,37 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset = utf-8>
+        <title>my library</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <button class="open-dialog">ADD BOOK</button>
+        <dialog class="dialog">
+            <form class="book-form">
+                <caption>submit the details of the book you want to add</caption>
+                <div class="title">
+                   <label for="title">TITLE</label>
+                   <input type="text" id="title" name="title">
+                </div>
+                <div class="author">
+                    <label for="author">AUTHOR</label>
+                    <input type="text" name="author" id="author">
+                </div>
+                <div class="pages">
+                    <label for="pages">PGES</label>
+                    <input type="number" name="pages" id="pages">
+                </div>
+                <div class="read">
+                    <label for="">READ</label>
+                    <input type="text" name="read" id="read">
+                </div>
+            <button type="submit" class="submit-button">SUBMIT</button>
+            </form>
+            <button class="close-dialog" type="button">CLOSE</button>
+                              
+        </dialog>
+        <div id="book-cards"></div>
+    </body>
+</html>

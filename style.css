@@ -1,0 +1,29 @@
+#book-cards{
+    display:grid;
+    grid-template-columns: repeat(5,1fr); 
+    gap: 20px;
+}
+.card{
+    
+    padding: 30px;
+    background-color:black;
+    color: aliceblue;
+}
+.read-remove{
+    display: flex;
+    gap: 20px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.title, .author, .pages, .read{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: aqua;
+    height: 40px;
+    width: 70px;
+}
